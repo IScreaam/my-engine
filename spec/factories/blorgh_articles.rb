@@ -1,0 +1,7 @@
+FactoryGirl.define do
+  factory :blorgh_article, :class => 'Blorgh::Article' do
+    title "MyString"
+text "MyText"
+  end
+
+end
